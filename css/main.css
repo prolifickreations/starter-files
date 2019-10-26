@@ -1,0 +1,179 @@
+@font-face {
+    font-family: 'Wisdom Script';
+    src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+/***** Base Style *****/
+
+body {
+    font-family: myriad-pro, sans-serif;
+    color: #000000;
+}
+
+
+/***** Grid *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.third-width {
+    width: 399px;
+    float: left;
+    height: auto;
+    border-top: 1px solid #eee;
+    padding: 115px 0;
+}
+
+
+/***** Header *****/
+
+header {
+    height: 110px;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 38px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+header nav {
+    float: right;
+    padding: 46px 0;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+header nav ul li a {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+/***** About *****/
+
+#about h2 {
+    color: #77a466;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+#about p {
+    font-weight: normal;
+}
+
+#about img#beans {
+    border: 2px solid #77a466;
+    margin: 0 auto;
+    width: 1200px;
+    height: 288px;
+}
+
+
+/***** Menu *****/
+
+#menu h3 {
+    color: #000000;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 25px;
+}
+
+#menu li {
+    color: #77a466;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+    padding: 10px 0;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+
+/***** Reviews *****/
+
+#reviews {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 10 30px;
+}
+
+#reviews h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+#reviews p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 21px;
+    padding: 0 50px;
+}
+
+
+/***** Locations *****/
+
+#locations {
+    padding: 10 30px;
+}
+
+#locations h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#locations p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10 30px;
+    font-weight: 700;
+}
+
+
+/***** Footer *****/
+
+footer {
+    clear: both;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    border-top: 3px solid #eee;
+}
+
+footer span {
+    color: #77a466;
+    font-family: 'Wisdom Script', cursive;
+    font-size: 16px;
+    text-transform: lowercase;
+}
